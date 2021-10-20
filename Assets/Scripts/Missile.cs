@@ -8,9 +8,9 @@ public class Missile : MonoBehaviour
     public void SetTarget(Transform target)
     {
         
-        float direction = Mathf.Atan2(target.position.y - transform.position.y, target.position.x - transform.position.x) * Mathf.Rad2Deg;
+       /* float direction = Mathf.Atan2(target.position.y - transform.position.y, target.position.x - transform.position.x) * Mathf.Rad2Deg;
 
-        transform.Rotate(new Vector3(0,0,1), direction);
+        transform.Rotate(new Vector3(0,0,1), direction);*/
  
     }
 }
